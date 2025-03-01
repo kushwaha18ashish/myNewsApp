@@ -7,7 +7,10 @@
     <fragment
         android:id="@+id/articleFragment"
         android:name="com.mjolnir.newsapp.ui.fragments.ArticleFragment"
-        android:label="ArticleFragment" />
+        android:label="ArticleFragment" >
+        <argument android:name="article"
+            app:argType="com.mjolnir.newsapp.models.Article"/>
+    </fragment>
     <fragment
         android:id="@+id/favouriteFragment"
         android:name="com.mjolnir.newsapp.ui.fragments.FavouriteFragment"
