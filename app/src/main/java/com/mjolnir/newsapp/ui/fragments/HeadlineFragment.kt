@@ -25,7 +25,7 @@ import com.mjolnir.newsapp.util.Resource
 import org.w3c.dom.Text
 
 
-class HeadlineFragment : Fragment() {
+class HeadlineFragment : Fragment(R.layout.fragment_headline) {
 
     lateinit var newsViewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter

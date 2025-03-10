@@ -20,7 +20,7 @@ import com.mjolnir.newsapp.ui.NewsActivity
 import com.mjolnir.newsapp.ui.NewsViewModel
 
 
-class FavouriteFragment : Fragment() {
+class FavouriteFragment : Fragment(R.layout.fragment_favourite) {
 
     lateinit var newsViewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
